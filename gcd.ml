@@ -1,4 +1,4 @@
-let rec gcd p = (* $B%f!<%/%j%C%I$N8_=|K!(B *)
+let rec gcd p = (* ユークリッドの互除法 *)
     let(m, n) = p in
     if m = n then m
     else if n < 0 then 1
