@@ -1,0 +1,4 @@
+$ocaml
+# #cd "/home/hoge/fuga";;
+# #use "foo.ml";;
+
